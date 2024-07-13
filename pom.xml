@@ -4,17 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.examples</groupId>
+    <groupId>com.examples</groupId>
     <artifactId>my-examples</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.1</version>
-    </parent>
-
     <modules>
         <module>test</module>
         <module>word</module>
@@ -29,7 +22,13 @@
             </dependency>
 
             <dependency>
-                <groupId>org.examples</groupId>
+                <groupId>com.examples</groupId>
+                <artifactId>word</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.examples</groupId>
                 <artifactId>test</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>

@@ -1,4 +1,4 @@
-package org.examples.readExcel;
+package com.examples.word.readExcel;
 
 import java.io.FileInputStream;
 import java.io.IOException;

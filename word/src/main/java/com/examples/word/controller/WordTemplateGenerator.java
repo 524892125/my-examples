@@ -1,4 +1,4 @@
-package org.examples.controller;
+package com.examples.word.controller;
 
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
