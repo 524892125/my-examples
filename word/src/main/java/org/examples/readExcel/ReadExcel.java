@@ -35,7 +35,7 @@ public class ReadExcel {
                         // 颜色转化为rgb
                         XSSFColor bgColor = sheet.getRow(row).getCell(rol).getCellStyle().getFillForegroundColorColor();
                         if (bgColor != null) {
-                            System.out.println(convertXSSFColorToRGBString(bgColor));
+                            System.out.print(convertXSSFColorToRGBString(bgColor) + "  ");
                         }
                     }
                     System.out.println();
