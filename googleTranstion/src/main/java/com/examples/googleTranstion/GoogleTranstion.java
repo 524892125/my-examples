@@ -12,6 +12,9 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 
+/**
+ * 字数长度1600左右
+ */
 public class GoogleTranstion {
     public static String transtion(boolean isUseProxy, String text) throws Exception
     {
