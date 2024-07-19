@@ -11,6 +11,7 @@
     <modules>
         <module>test</module>
         <module>word</module>
+        <module>transtionPrompt</module>
     </modules>
 
     <dependencyManagement>
