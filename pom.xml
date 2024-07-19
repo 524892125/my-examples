@@ -12,6 +12,7 @@
         <module>test</module>
         <module>word</module>
         <module>transtionPrompt</module>
+        <module>googleTranstion</module>
     </modules>
 
     <dependencyManagement>
@@ -23,8 +24,25 @@
             </dependency>
 
             <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>4.12.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.8.9</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.examples</groupId>
                 <artifactId>word</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.examples</groupId>
+                <artifactId>transtionPrompt</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
