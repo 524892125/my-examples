@@ -20,7 +20,7 @@ public class GoogleTranstion {
     {
         // 配置代理地址和端口
         String proxyHost = "127.0.0.1";
-        int proxyPort = 7890;
+        int proxyPort = 10809;
 
         // 创建代理对象
         OkHttpClient client = new OkHttpClient.Builder().build();
