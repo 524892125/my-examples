@@ -13,6 +13,7 @@
         <module>word</module>
         <module>transtionPrompt</module>
         <module>googleTranstion</module>
+        <module>sqllite</module>
     </modules>
 
     <dependencyManagement>
