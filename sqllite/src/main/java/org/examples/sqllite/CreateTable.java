@@ -7,9 +7,6 @@ import java.sql.Statement;
 
 public class CreateTable {
     public static void createNewTable() {
-        // SQLite 连接字符串
-        String url = "jdbc:sqlite:sample.db";
-
         // SQL 语句用于创建表
         String sql = "CREATE TABLE IF NOT EXISTS users (\n"
                 + " id integer PRIMARY KEY,\n"
@@ -17,7 +14,7 @@ public class CreateTable {
                 + " age integer\n"
                 + ");";
 
-        try (Connection conn = DriverManager.getConnection(url);
+        try (Connection conn = SQLiteConnection.connect();
              Statement stmt = conn.createStatement()) {
             // 创建新表
             stmt.execute(sql);

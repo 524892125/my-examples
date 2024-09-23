@@ -14,6 +14,7 @@
         <module>transtionPrompt</module>
         <module>googleTranstion</module>
         <module>sqllite</module>
+        <module>websocket</module>
     </modules>
 
     <dependencyManagement>
@@ -21,6 +22,12 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
+                <version>3.3.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-websocket</artifactId>
                 <version>3.3.1</version>
             </dependency>
 
