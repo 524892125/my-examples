@@ -18,6 +18,23 @@
             <artifactId>protobuf-java</artifactId>
             <version>4.29.4</version>
         </dependency>
+
+        <!-- gRPC 依赖 -->
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-netty-shaded</artifactId>
+            <version>1.71.0</version> <!-- 使用最新的gRPC版本 -->
+        </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-protobuf</artifactId>
+            <version>1.71.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-stub</artifactId>
+            <version>1.71.0</version>
+        </dependency>
     </dependencies>
 
     <build>
