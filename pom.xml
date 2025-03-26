@@ -15,6 +15,7 @@
         <module>googleTranstion</module>
         <module>sqllite</module>
         <module>websocket</module>
+        <module>protobuf</module>
     </modules>
 
     <dependencyManagement>
