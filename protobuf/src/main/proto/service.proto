@@ -10,9 +10,11 @@ service MyService {
 // 请求消息
 message HelloRequest {
   string name = 1;
+  string phone = 2;
 }
 
 // 响应消息
 message HelloResponse {
   string message = 1;
+  string phone = 2;
 }
