@@ -2,9 +2,8 @@ syntax = "proto3";
 
 package com.examples;
 
-// 定义一个简单的服务
-service Greeter {
-  // 定义一个方法，接收一个请求并返回响应
+// 定义 gRPC 服务
+service MyService {
   rpc sayHello (HelloRequest) returns (HelloResponse);
 }
 
