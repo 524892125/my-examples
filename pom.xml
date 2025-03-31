@@ -16,6 +16,7 @@
         <module>sqllite</module>
         <module>websocket</module>
         <module>protobuf</module>
+        <module>EsayExcel</module>
     </modules>
 
     <dependencyManagement>
