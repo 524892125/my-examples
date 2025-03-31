@@ -17,11 +17,11 @@ public class ExcelMapListener extends AnalysisEventListener<Map<Integer, String>
     @Override
     public void invoke(Map<Integer, String> data, AnalysisContext context) {
         dataList.add(data);
-        System.out.println("读取到一行数据：" + data);
+//        System.out.println("读取到一行数据：" + data);
     }
 
     @Override
     public void doAfterAllAnalysed(AnalysisContext context) {
-        System.out.println("所有数据读取完毕");
+//        System.out.println("所有数据读取完毕");
     }
 }

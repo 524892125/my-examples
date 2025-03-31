@@ -14,8 +14,9 @@ public class MultiFileExcelReader2 {
         String fileName = "D:\\Download\\KIIF_Ase_Design3.0\\KIIF_Ase_Design3.0\\Prop.xlsx";
 
         ExcelMapListener excelMapListener = new ExcelMapListener();
-        EasyExcel.read(fileName, excelMapListener).sheet().doReadSync();
+        EasyExcel.read(fileName, excelMapListener).sheet().doRead();
 
-        log.info("读取到数据123：{}", excelMapListener.getDataList());
+        System.out.println("读取到数据：" + excelMapListener.getDataList());
+//        log.info("读取到数据123：{}", excelMapListener.getDataList());
     }
 }
