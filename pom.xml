@@ -17,6 +17,7 @@
         <module>websocket</module>
         <module>protobuf</module>
         <module>EsayExcel</module>
+        <module>springNative</module>
     </modules>
 
     <dependencyManagement>
